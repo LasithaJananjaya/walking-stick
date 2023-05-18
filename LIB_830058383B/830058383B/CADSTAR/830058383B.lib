@@ -1,0 +1,18 @@
+.830058383B :1 ;Crystals WE-XTAL 16.0MHz 50ppm 11.05 x 4.7mm
+"830058383B"
+*STM Y
+*NGS
+*PLB 1="CRYSTAL_1" 2="CRYSTAL_2"
+*MXP 2
+*DFN 830058383B
+~!Manufacturer_Name (Wurth Elektronik)
+~!Manufacturer_Part_Number (830058383B)
+~!Mouser Part Number (710-830058383B)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/830058383B?qs=2WXlatMagcE2QLGsrYE0nQ%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.we-online.com/catalog/datasheet/830058383B.pdf)
+~!Height (4.1mm)
+~!3D_Model (830058383B)
+"830058383B"
+1.1!U 2.1!U 

@@ -1,0 +1,9 @@
+Manufacturer=Würth Elektronik
+PartNumber=830058383B
+PartCategory=Crystal or Oscillator
+PackageCategory=Other
+PinCount=2
+Version=1.2
+Released=2021-11-08 10:08:54
+Downloaded=2023-05-18 03:06:21
+3D=Y

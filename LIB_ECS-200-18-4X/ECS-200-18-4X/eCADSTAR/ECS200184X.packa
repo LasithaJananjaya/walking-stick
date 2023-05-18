@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "ECS-200-18-4X"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2023-02-15-13:39:32)
+    (mountForm default
+        (footprintRef "ECS200184X")
+        (spec "System")
+    )
+)

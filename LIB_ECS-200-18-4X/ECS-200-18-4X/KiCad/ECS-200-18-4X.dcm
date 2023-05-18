@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ECS-200-18-4X
+D Crystals HC-49USX, 20MHz, 18pF, HC-49USX, +/-30ppm, +/-50ppm, -10C +70 C, RoHS
+K
+F https://ecsxtal.com/store/pdf/hc-49usx.pdf
+$ENDCMP
+#
+#End Doc Library

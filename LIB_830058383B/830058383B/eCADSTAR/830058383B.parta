@@ -1,0 +1,68 @@
+(Japanese_coding: sjis)
+(function "ECS_14951546"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-11-08-10:08:54)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "830058383B")
+)
+
+
+(pinAssign "ECS_14951546"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-11-08-10:08:54)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "CRYSTAL_1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "CRYSTAL_2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_14951546")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "830058383B")
+)
+
+
+(part "830058383B"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-11-08-10:08:54)
+    (utime 2023-03-07-16:10:32)
+    (packageRef "830058383B")
+    (pinAssignRef "ECS_14951546")
+    (interface
+        (port "1" (symbPinId 1) (portName "CRYSTAL_1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "CRYSTAL_2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "Y")
+    (property "description" "Crystals WE-XTAL 16.0MHz 50ppm 11.05 x 4.7mm")
+    (property "Manufacturer_Name" "Wurth Elektronik")
+    (property "Manufacturer_Part_Number" "830058383B")
+    (property "Mouser_Part_Number" "710-830058383B")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/830058383B?qs=2WXlatMagcE2QLGsrYE0nQ%3D%3D")
+    (property "Arrow_Part_Number" "")
+    (property "Arrow_Price/Stock" "")
+    (property "Datasheet_Link" "https://www.we-online.com/catalog/datasheet/830058383B.pdf")
+    (property "compAreaTopHeight" 4.1)
+)
+
+

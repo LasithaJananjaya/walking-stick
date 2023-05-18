@@ -1,0 +1,132 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "ECS-200-18-4X"
+   (description "Crystals HC-49USX, 20MHz, 18pF, HC-49USX, +/-30ppm, +/-50ppm, -10C +70 C, RoHS")
+   (family "OSC")
+   (package "ECS200184X")
+   (attribute "Datasheet Link" "https://ecsxtal.com/store/pdf/hc-49usx.pdf")
+   (attribute "Geometry.Height" "3.5mm")
+   (attribute "Manufacturer_Name" "ECS")
+   (attribute "Manufacturer_Part_Number" "ECS-200-18-4X")
+   (attribute "Mouser Part Number" "520-ECS-200-18-4X")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ECS/ECS-200-18-4X?qs=A6eO%252BMLsxmTfwwDQ%252By5Jdw%3D%3D")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "ECS-200-18-4X")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "ECS-200-18-4X"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 120 100) (pt 120 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 280 100) (pt 280 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 160 140) (pt 160 -140) (pt 240 -140) (pt 240 140) (pt 160 140) (closed))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 280 0) (pt 300 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 120 0) (pt 100 0))
+   )
+   (terminal
+    (body (symbol "PINSHORT") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 140 10) (rot 0) (just MIDDLE LEFT) (visible false))
+    (number (pt 60 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 400 0) (rot 0) (mir X) (visible true))
+    (name (pt 140 10) (rot 0) (just MIDDLE LEFT) (visible false))
+    (number (pt 60 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "ECS200184X"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.235 2.325)
+      (pt 8.115 2.325)
+      (pt 8.115 -2.325)
+      (pt -3.235 -2.325)
+      (pt -3.235 2.325))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -3.235 2.325)
+      (pt 8.115 2.325)
+      (pt 8.115 -2.325)
+      (pt -3.235 -2.325)
+      (pt -3.235 2.325))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4.235 3.325)
+      (pt 9.115 3.325)
+      (pt 9.115 -3.325)
+      (pt -4.235 -3.325)
+      (pt -4.235 3.325))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.8 0)
+      (arc (pt -3.800 0.000) (pt -3.900 -0.050) (pt -3.800 0.050) (start 180.0) (sweep .0))
+      (pt -3.9 0)
+      (arc (pt -3.900 0.000) (pt -3.900 -0.050) (pt -3.800 0.050) (start 180.0) (sweep -180.0))
+      (pt -3.8 0))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 4.880 0.000) (padstack 2))
+   (padstack 0
+    (hole 0.63)
+    (plated true)
+    (pad (layer TCOP) (square 1.155))
+    (pad (layer INNER) (round 1.155))
+    (pad (layer BCOP) (square 1.155))
+   )
+   (padstack 2
+    (hole 0.63)
+    (plated true)
+    (pad (layer TCOP) (round 1.155))
+    (pad (layer INNER) (round 1.155))
+    (pad (layer BCOP) (round 1.155))
+   )
+   (model "ECS-200-18-4X.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

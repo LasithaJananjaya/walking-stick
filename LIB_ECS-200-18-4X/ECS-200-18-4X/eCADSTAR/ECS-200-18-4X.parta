@@ -1,0 +1,68 @@
+(Japanese_coding: sjis)
+(function "ECS_15663105"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-02-15-13:39:32)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "ECS-200-18-4X")
+)
+
+
+(pinAssign "ECS_15663105"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-02-15-13:39:32)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_15663105")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "ECS-200-18-4X")
+)
+
+
+(part "ECS-200-18-4X"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-02-15-13:39:32)
+    (utime 2023-03-07-16:10:32)
+    (packageRef "ECS-200-18-4X")
+    (pinAssignRef "ECS_15663105")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "Y")
+    (property "description" "Crystals HC-49USX, 20MHz, 18pF, HC-49USX, +/-30ppm, +/-50ppm, -10C +70 C, RoHS")
+    (property "Manufacturer_Name" "ECS")
+    (property "Manufacturer_Part_Number" "ECS-200-18-4X")
+    (property "Mouser_Part_Number" "520-ECS-200-18-4X")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/ECS/ECS-200-18-4X?qs=A6eO%252BMLsxmTfwwDQ%252By5Jdw%3D%3D")
+    (property "Arrow_Part_Number" "")
+    (property "Arrow_Price/Stock" "")
+    (property "Datasheet_Link" "https://ecsxtal.com/store/pdf/hc-49usx.pdf")
+    (property "compAreaTopHeight" 3.5)
+)
+
+

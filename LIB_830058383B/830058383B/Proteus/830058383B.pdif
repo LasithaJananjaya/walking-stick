@@ -1,0 +1,136 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "830058383B"
+   (description "Crystals WE-XTAL 16.0MHz 50ppm 11.05 x 4.7mm")
+   (family "OSC")
+   (package "830058383B")
+   (attribute "Datasheet Link" "https://www.we-online.com/catalog/datasheet/830058383B.pdf")
+   (attribute "Geometry.Height" "4.1mm")
+   (attribute "Manufacturer_Name" "Wurth Elektronik")
+   (attribute "Manufacturer_Part_Number" "830058383B")
+   (attribute "Mouser Part Number" "710-830058383B")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/830058383B?qs=2WXlatMagcE2QLGsrYE0nQ%3D%3D")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "830058383B")
+    (pin "CRYSTAL_2" 2 PS)
+    (pin ""  PS)
+   )
+  )
+  (symbol "830058383B"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 120 100) (pt 120 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 280 100) (pt 280 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 160 140) (pt 160 -140) (pt 240 -140) (pt 240 140) (pt 160 140) (closed))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 280 0) (pt 300 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 120 0) (pt 100 0))
+   )
+   (terminal
+    (body (symbol "PINSHORT") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 140 10) (rot 0) (just MIDDLE LEFT) (visible false))
+    (number (pt 60 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 400 0) (rot 0) (mir X) (visible true))
+    (name (pt 140 10) (rot 0) (just MIDDLE LEFT) (visible false))
+    (number (pt 60 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "830058383B"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4.01 3.35)
+      (pt 8.89 3.35)
+      (pt 8.89 -3.35)
+      (pt -4.01 -3.35)
+      (pt -4.01 3.35))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.66 2.35)
+      (pt 5.54 2.35)
+      (arc (pt 5.540 2.350) (pt 3.190 -2.350) (pt 7.890 2.350) (start -180.0) (sweep 90.0))
+      (pt 5.54 -2.35)
+      (pt -0.66 -2.35)
+      (arc (pt -0.660 -2.350) (pt -3.010 -2.350) (pt 1.690 2.350) (start -180.0) (sweep -90.0))
+      (pt -0.66 2.35))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -0.66 2.35)
+      (pt 5.54 2.35)
+      (arc (pt 5.540 2.350) (pt 3.190 -2.350) (pt 7.890 2.350) (start -180.0) (sweep 90.0))
+      (pt 5.54 -2.35)
+      (pt -0.66 -2.35)
+      (arc (pt -0.660 -2.350) (pt -3.010 -2.350) (pt 1.690 2.350) (start -180.0) (sweep -90.0))
+      (pt -0.66 2.35))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.4 0)
+      (arc (pt -3.400 0.000) (pt -3.500 -0.050) (pt -3.400 0.050) (start 180.0) (sweep .0))
+      (pt -3.5 0)
+      (arc (pt -3.500 0.000) (pt -3.500 -0.050) (pt -3.400 0.050) (start 180.0) (sweep 180.0))
+      (pt -3.4 0))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 4.880 0.000) (padstack 2))
+   (padstack 0
+    (hole 0.65)
+    (plated true)
+    (pad (layer TCOP) (square 1.192))
+    (pad (layer INNER) (round 1.192))
+    (pad (layer BCOP) (square 1.192))
+   )
+   (padstack 2
+    (hole 0.65)
+    (plated true)
+    (pad (layer TCOP) (round 1.192))
+    (pad (layer INNER) (round 1.192))
+    (pad (layer BCOP) (round 1.192))
+   )
+   (model "830058383B.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)
